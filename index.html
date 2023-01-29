@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Audi C7 Series 6</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/heading.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+
+
+
+    <script defer src="js/script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="lightTheme js-body body"></body>
+<header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a class="navigation__link" href="#informacje">Informacje</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#historia">Historia</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#kontakt">Kontakt</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#tabela">Tabela</a>
+            </li>
+        </ul>
+    </nav>
+    <button class="button js-button">Zmień kolor tła na <span class="js-buttonName">ciemny</span></button>
+</header>
+<main>
+    <section class="section__info">
+        <h1 class="section__main">AUDI S6 / RS6 -- C7 FACE LIFTING</h1>
+        <img class="section__image" height="300" width="350" src="https://thumbs2.imgbox.com/73/6a/Zw7EsfLx_t.jpg"
+            alt="Audi RS" />
+
+        <h2 class="section__heading" id="informacje">INFORMACJE</h2>
+        <p> Jego silnik TFSI V8 4.0 l <i>(3993 cm3)</i> z podwójnym turbodoładowaniem rozwija moc od 420 KM do 580
+            KM
+            , przy 5700-6600 obr./min .
+            <br>
+            Dzięki temu RS 6 Avant przyspieszy<b>od 0 do 100 km/h w 3,9 sekundy.</b>
+            <br>
+            Prędkość maksymalna została ograniczona do 250 km/h .
+        </p>
+        <h2 class="section__heading" id="historia">HISTORIA</h2>
+        <p> Audi ujawniło szczegóły modelu seri 6 w wersii S oraz RS 5 grudnia 2012r.
+            <br>
+            Jest to <b>topowy</b> i najlepiej sprzedający się model klasy <b>premium</b> .
+            <br>
+
+            C7 RS 6 nie był oferowany w Ameryce Północnej , jednak rynek ten otrzymał RS 7 Sportback ,
+            który ma ten sam układ napędowy i platformę .
+
+        </p>
+        <h2 class="section__heading" id="kontakt">KONTAKT</h2>
+        <div id="kontakt">
+            <p>Jeśli masz pytania lub chciałbyś się skontaktować, możesz skorzystać z poniższych danych:</p>
+            <ul>
+                <li>Email: <a href="mailto:twoj@adres.email">twoj@adres.email</a></li>
+                <li>Telefon: 123-456-789</li>
+                <li>Adres: Ul. Fikcyjna 123, 00-000 Fikcyjne Miasto</li>
+            </ul>
+        </div>
+        <h2 class="section__heading" id="tabela">TABELA</h2>
+        <section class="section">
+            <div class="section__table">
+                <table class="table" id="tabela">
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Model</th>
+                        <th class="table__cell table__cell--header" scope="col">Rok produkcji</th>
+                        <th class="table__cell table__cell--header" scope="col">Moc w KM</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">S6 facelift</th>
+                        <td class="table__cell">od 2016 do 2018</td>
+                        <td class="table__cell"> 450 KM </td>
+
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row"> RS 6 standard </th>
+                        <td class="table__cell">od 2014 do 2017</td>
+                        <td class="table__cell"> 560 KM </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">RS 6 preformance</th>
+                        <td class="table__cell">od 2015 do 2017</td>
+                        <td class="table__cell"> 580 KM </td>
+
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+</main>
+<footer class="footer">Strona napisana przez Marcina Gajewskiego na potrzeby kursu YOUCODE :)</footer>
+
+</body>
+
+</html>

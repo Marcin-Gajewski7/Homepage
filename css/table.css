@@ -1,0 +1,36 @@
+.section__table {
+    padding-top: 25px;
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+}
+
+.table__caption {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 5px rgb(172, 171, 171);
+}
+
+.table__row {
+    background-color: rgb(86, 209, 247);
+}
+
+.table__cell--header {
+    background-color: rgb(42, 238, 140);
+}
+
+.table__row:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.table__cell {
+    color: black;
+    padding: 10px;
+    border: 1px solid rgb(180, 180, 180);
+}
