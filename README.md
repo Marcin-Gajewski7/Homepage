@@ -3,4 +3,9 @@
 ## Demo
 https://marcin-gajewski7.github.io/Homepage/
 ## Description
-I am currently using HTML, CSS and ES6 in this project. I used the BEM convention.
+Website to present the technical data of the Audi series 6; produced in 2014-2018 .
+## Technolohies used in this project:
+-HTML
+-CSS
+-JS/ES6
+-BEM
